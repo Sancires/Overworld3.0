@@ -3,10 +3,10 @@ num leafRadius = 3 + randomInt(4);
 num trunkHeight = 5 + randomInt(5);
 num leafTopHeight = trunkHeight * 1.3;
 num leafBottomHeight = 1 + randomInt(2);
-str trunkBlockX = "minecraft:dark_oak_log[axis=x]";
-str trunkBlockY = "minecraft:dark_oak_log[axis=y]";
-str trunkBlockZ = "minecraft:dark_oak_log[axis=z]";
-str leafBlock   = "minecraft:dark_oak_leaves[distance=1,persistent=false]";
+str trunkBlockX = "natures_spirit:cypress_log[axis=x]";
+str trunkBlockY = "natures_spirit:cypress_log[axis=y]";
+str trunkBlockZ = "natures_spirit:cypress_log[axis=z]";
+str leafBlock   = "natures_spirit:cypress_leaves[distance=1,persistent=false]";
 
 // Tree gen logic
 num leafMidPointRatio = 0.3;
