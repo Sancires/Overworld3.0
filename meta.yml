@@ -8,13 +8,13 @@ biome-distribution:
   # You can find these configs in the biome-distribution directory, most of which contain
   # additional more specific parameters.
   
-  continental-scale: 100
+  continental-scale: 115
   # Controls the scale of land / coastal / oceanic distribution. Increasing
   # this produces larger landmasses and larger oceans, and vice-versa when
   # decreasing it.
   # Default: 100
 
-  temperature-scale: 60
+  temperature-scale: 56
   # Controls the scale of temperature zones. Most biomes are placed according to
   # a temperature map so hot biomes can't generate next to cold biomes, as well as
   # allowing for biomes of similar temperatures to generate together. Increasing this
@@ -22,13 +22,13 @@ biome-distribution:
   # hot and cold biomes generating further apart - and vice versa when decreasing it.
   # Default: 60
 
-  precipitation-scale: 50
+  precipitation-scale: 45
   # Controls the scale of precipitation zones. Same idea as temperature zones, where
   # humid biomes generate away from arid biomes, and biomes of similar precipitation
   # generate together.
   # Default: 50
   
-  elevation-scale: 35
+  elevation-scale: 30
   # Controls the scale of elevation zones. Most land biomes belong to
   # an elevation zone, in addition to temperature and precipitation. How far apart / close
   # together these elevation zones are is determined by this parameter. If you want more
@@ -75,7 +75,7 @@ biome-distribution:
   # How large any given mushroom island will be.
   # Default: 4
   
-  global-scale: 1
+  global-scale: .75
   # Modifies the scale of everything, you can use this parameter to if you
   # want just about every biome to be larger or smaller.
   # By doubling the scale, you double the length & width of everything,

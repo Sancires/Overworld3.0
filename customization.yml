@@ -55,7 +55,7 @@ terrain-ocean-depth: 100
 # 1 means 100% inland, 0 means the coast, and -1 means 100% ocean.
 # These options are primarily used in the math/samplers/continents.yml config file.
 
-continental-offset: 0.2
+continental-offset: 0.25
 # Controls the land / ocean ratio.
 # - A value of 0 results in equal land and ocean
 # - A value of 1 results in 100% land
@@ -87,7 +87,7 @@ continental-scale: 1
 # you should change continental-offset instead.
 # Default: 1
 
-continental-coast-width: 20
+continental-coast-width: 12
 # Determines the width of costal biomes in blocks.
 # Default: 30
 
@@ -281,16 +281,16 @@ ocean-deep-threshold: -0.8
 # Rivers
 # ---
 
-river-spread-scale: 1
+river-spread-scale: .86
 # Controls how far / close apart rivers generally are, larger scale = further apart
 # rivers, smaller scale = closer packed together rivers.
 # Default: 1
 
-river-min-width: 13
+river-min-width: 10
 # Controls in blocks the minimum width of rivers.
 # Default: 13
 
-river-max-width: 30
+river-max-width: 75
 # Controls in blocks the maximum width of rivers.
 # Default: 30
 
