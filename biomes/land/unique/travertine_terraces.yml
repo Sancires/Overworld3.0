@@ -13,7 +13,7 @@ colors:
 vanilla: minecraft:river
 
 palette:
-    - BLOCK:minecraft:calcite: $meta.yml:top-y
+    - BLOCK:natures_spirit:travertine: $meta.yml:top-y
     - << meta.yml:palette-underwater
     - << meta.yml:palette-bottom
 
